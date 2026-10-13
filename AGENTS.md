@@ -1,6 +1,6 @@
-# Agent rules (private repo)
+# Agent rules (blobs repo)
 
-- **Visibility:** this repo stays private. It holds proprietary firmware and stock images. Never make it public, mirror it, or copy its files into `mia3-postmarketos`.
-- **Use:** `mia3-postmarketos/deploy.sh` picks up `firmware/` from here (checked out next to it) and copies it to the phone with `cp -an`.
-- **Large files:** `stock/images/*.img` are big. Add images only when they come from a new stock source.
-- **Main rules:** see `mia3-postmarketos/AGENTS.md` (phone access, secrets, logging).
+- **Licence:** this repo holds third-party firmware, stock images and vendor GPL sources. Never add a LICENSE or claim rights on them, and keep the README's source links accurate when adding files.
+- **Main repo:** never copy these files into `mia3-postmarketos`. Its `deploy.sh` reads `firmware/` from here.
+- **Large files:** add new `stock/images/*.img` only from a new stock source.
+- **Other rules:** phone access, secrets and logging are in `mia3-postmarketos/AGENTS.md`.
