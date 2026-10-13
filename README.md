@@ -5,7 +5,7 @@ doesn't ship. Kept here for reference and for restoring a phone.
 
 ## Not my work, no licence granted
 
-Everything here belongs to its owners: Qualcomm, Xiaomi, Maxim Integrated, and the kernel GPL authors. I claim no rights and
+Everything here belongs to its owners: Qualcomm, Xiaomi, Maxim Integrated, the kernel GPL authors, and the Nura project (logo). I claim no rights and
 add no licence. The firmware and stock images are as dumped from my own phone. The vendor sources stay GPL-2.0 as published.
 If you are a rights holder and want something removed, open an issue.
 
@@ -19,6 +19,7 @@ If you are a rights holder and want something removed, open an issue.
 | `stock/btfw/` | Bluetooth firmware as extracted | `bt_a.img` |
 | `vendor-src/max98937.c/.h` | Xiaomi's MAX98937 amp driver (GPL-2.0), register reference for `audio/max98937-init.sh` | [LineageOS android_kernel_xiaomi_sdm660 @ 49688d8](https://github.com/LineageOS/android_kernel_xiaomi_sdm660/blob/49688d8750f2fca28271f936cfcfec5d97c0d7a4/techpack/audio/asoc/codecs/max98937.c) |
 | `vendor-src/max98927.c/.h` | Xiaomi's MAX98927 driver (GPL-2.0) | [xiaomi-msm8953-devs android_kernel_xiaomi_msm8953 @ dcaf331](https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953/blob/dcaf331bd84a5faf23b8641ff195e4833a5c47bc/techpack/audio/titanium/asoc/codecs/max98927.c) |
+| `media/nura-logo.png` | Nura (formerly postmarketOS) logo, rendered to PNG for forum posts | [postmarketos.org/static/img/2026-09/logo-new.svg](https://postmarketos.org/static/img/2026-09/logo-new.svg), © the Nura project |
 
 ## Use
 
